@@ -1,0 +1,82 @@
+This HTML code creates a basic website for "Kingsukh Guest House" using HTML, CSS, and JavaScript. Below is a detailed explanation of the various components of the code:
+
+1. HTML Structure and Head Section:
+
+<!DOCTYPE html>: Specifies the document type and version of HTML (HTML5 in this case).
+<html>: The root element of the HTML document.
+<head>: Contains meta-information about the document, such as the title and links to stylesheets.
+<title>KingsukhGuestHouse</title>: Sets the title of the webpage, which appears in the browser tab.
+<meta charset="UTF-8">: Specifies the character encoding (UTF-8) for the document.
+<meta name="viewport" content="width=device-width, initial-scale=1">: Ensures the page is responsive, adapting to different screen sizes.
+<link rel="stylesheet" href="style.css">: Links an external CSS file (style.css) for custom styling.
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">: Links the W3.CSS framework for styling.
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">: Links a Google font (Raleway) to the page.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">: Links Font Awesome for icons.
+
+2. Body Section:
+
+<body>: Contains all the visible content of the webpage.
+
+ 1.Navbar (sit on top):
+
+A sticky top navigation bar (w3-top), with links to different sections of the page.
+The w3-bar, w3-white, w3-card classes are used to style the navigation bar.
+The navigation items (HOME, ABOUT, SERVICES, ROOMS, GALLARY, CONTACT) are displayed with icons from Font Awesome.
+A hamburger menu (<i class="fa fa-bars"></i>) is provided for small screens, which, when clicked, reveals a sidebar.
+
+ 2.Sidebar:
+
+A sidebar (w3-sidebar) that appears on smaller screens when the hamburger icon is clicked. This sidebar contains links to the same sections as the top navigation bar.
+Header Section
+A full-height image header (bgimg-1 w3-display-container w3-grayscale-min) with the text "Kingsukh Guest House" and a "BOOK NOW" button that links to the "About" section.
+
+ 3.About Section:
+
+This section (<div id="about" class="w3-container w3-light-grey">) provides information about the guest house.
+It includes a title, a brief description, contact details, and a "BOOK NOW" button.
+An image is displayed on the right side, complementing the text. 
+ 
+ 4.Rooms Section:
+
+This section (<div id="rooms" class="w3-container">) showcases the types of rooms available.
+Two room types are displayed: "Cozy Haven Room" and "Spacious Serenity Suite", each with a brief description, starting price, and icons representing amenities.
+
+ 5.Services Section:
+
+This section highlights the services offered by the guest house. The services include security, room service, a restaurant, and tourist guide support.
+A background image and a brief description are provided for visual appeal.
+
+ 6.Statistics Section:
+
+A section that highlights key achievements of the guest house, such as the number of bookings completed and happy customers.
+
+ 7.Gallery Section:
+
+This section (<div id="gallary" class="w3-container">) displays a gallery of images showcasing different views and features of the guest house.
+
+ 8.Contact Section:
+
+This section (<div id="contact" class="w3-container w3-brown">) provides a form for visitors to book a room.
+The form collects the visitor's name, number of people, date and time of arrival, number of rooms required, and mobile number.
+Additionally, a Google Maps iframe is embedded to show the location of the guest house.
+
+ 9.Footer:
+The footer (<footer class="w3-padding-24 w3-black w3-center">) contains links to the guest house's social media pages (Instagram, Facebook, Twitter).
+
+ 10.CSS Classes and JavaScript:
+
+The page relies heavily on classes provided by the W3.CSS framework (e.g., w3-container, w3-padding, w3-card) for responsive design and consistent styling.
+Font Awesome icons are used for various purposes, including navigation and highlighting services.
+Basic JavaScript functions (w3_open(), w3_close()) are used to toggle the visibility of the sidebar on smaller screens.
+
+ 11.Key Takeaways:
+
+The webpage is designed to be responsive and visually appealing, using W3.CSS for layout and Font Awesome for icons.
+The page contains several sections to provide information, display rooms, services, a gallery, and a contact form.
+The use of Google Maps iframe allows visitors to see the guest house's location directly on the website.
+
+
+
+
+
+
